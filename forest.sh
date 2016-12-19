@@ -285,9 +285,8 @@ hola
 thumbdir
 delfile
  
-unset 
 finish_time=$( date +%s )
-echo "Time duration: $((finish_time - start_time)) secs."
+echo "Duracion total: $((finish_time - start_time)) seg"
 
 
 
