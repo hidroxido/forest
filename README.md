@@ -1,8 +1,6 @@
 # Forest
  Script que crea una galeria html con imagenes jpg,jpeg,png de la carpeta actual en que se ejecuta el script, tiene la opcion para mostrar la descripcion EXIF de las imagenes.
  
-IMPORTANTE: Se requiere de los paquetes exiftool y mogrify para funcionar !!!!!!
- 
  Las opciones son las siguientes:
  
      -f           No elimina lista de archivos file.txt creada
@@ -16,7 +14,7 @@ IMPORTANTE: Se requiere de los paquetes exiftool y mogrify para funcionar !!!!!!
 
 La galeria creada tiene como nombre "galeria.html" y se puede abrir con cualquier navegador web.
 
-Paquete necesario para funcionar (info EXIF): 
+Paquetes necesario para funcionar: 
 ```bash
-exiftool
+exiftool mogrify
 ```
