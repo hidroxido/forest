@@ -15,3 +15,8 @@ IMPORTANTE: Se requiere de los paquetes exiftool y mogrify para funcionar !!!!!!
      -h           Muestra esta ayuda
 
 La galeria creada tiene como nombre "galeria.html" y se puede abrir con cualquier navegador web.
+
+Paquete necesario para funcionar (info EXIF): 
+```bash
+exiftool
+```
